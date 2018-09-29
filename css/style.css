@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css?family=Elsie');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie');
+/* this is a comment*/
+
+/* CSS Sytax:
+
+selctor {
+  property: value;
+  property: value;
+}
+
+*/
+
+/* Type Selector */
+
+p { 
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+figcaption {
+  font-weight: normal;
+  font-size: 0.75em;
+  line-height: 1.5em;
+  font-family: Georgia;
+  color: black;
+  text-align: right;
+  
+}
+
+/* Class selctor (applied to as many elements as you like)*/
+
+.milk-text {
+  font:bold 2.6em Georgia;
+  color: white;
+  text-shadow: 0 2px 3px black;
+}
+
+/* ID selector can onlybe applied to one element per page */
+
+#logo {
+  background: red
+}
+
+/* Decendent selector */
+
+#logo h1 { /* slelects h1 inside element = to logo*/
+  font-family: 'Clicker-script', cursive;
+}
+
+/* Psudeo selector */
+
+
